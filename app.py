@@ -61,7 +61,7 @@ def analyze_with_gemini(image, test_type, unit="mg/L"):
         # Define test-specific prompts
         prompts = {
             'ammonia': {
-                'color': 'orange',
+                'color': 'pale yellow/brown',
                 'description': 'Ammonia',
                 'ranges': '(0.0, 0.5, 1.0, 3.0, or 5.0)',
                 'unit_required': True
